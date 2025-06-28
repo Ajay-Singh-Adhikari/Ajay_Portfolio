@@ -4,29 +4,27 @@ import { FaGithub, FaLinkedin, FaTelegram } from "react-icons/fa";
 export default function Footer() {
   return (
     <footer className="bg-[#1a1a1a] text-white py-8 px-4 mt-8">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 text-center md:text-left">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+        
         <div>
           <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
-          
           <ul className="space-y-2">
             <li>
               <Link
                 to="/certificates"
-                className="hover:text-pink-600 transition"
+                className="hover:text-pink-600 transition underline"
               >
                 My Certificates
               </Link>
             </li>
             <li>
-              <Link
-                to="/contact"
-                className="hover:text-pink-600 transition"
-              >
+              <Link to="/contact" className="hover:text-pink-600 transition underline">
                 Let’s Talk
               </Link>
             </li>
           </ul>
         </div>
+
         <div>
           <h3 className="text-xl font-semibold mb-4">Say HELLO</h3>
           <ul className="space-y-2">
@@ -54,6 +52,18 @@ export default function Footer() {
             </a>
           </div>
         </div>
+
+        <div>
+          <h3 className="text-xl font-semibold mb-4">Skills</h3>
+          <ul className="space-y-2">
+            <h2 className="text-pink-600 font-bold">Front-End Technologies</h2>
+            <li>HTML, CSS, JavaScript</li>
+            <li>ReactJS, Redux, EJS</li>
+            <li>Bootstrap, TailwindCSS, Wix Studio</li>
+            <h2 className="text-pink-600 font-bold">Backend Technologies</h2>
+            <li>Node.js, Express.js, Firebase</li>
+          </ul>
+        </div>
       </div>
       <p className="text-center text-gray-400 text-xs mt-6">
         © 2025 Ajay Singh Adhikari. All rights reserved.
@@ -61,4 +71,3 @@ export default function Footer() {
     </footer>
   );
 }
-

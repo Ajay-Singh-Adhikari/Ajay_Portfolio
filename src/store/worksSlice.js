@@ -14,23 +14,43 @@ const initialState = {
     },
     {
       id: 3,
-      name: "Auto Hacker",
+      name: "Auto Hacking",
       video: "/videos/hacker.mp4",
     },
     {
       id: 4,
-      name: "Netflix Website",
+      name: "Netflix Clone",
       video: "/videos/netflix.mp4",
     },
     {
       id: 5,
-      name: "Spotify Website",
+      name: "Spotify Clone",
       video: "/videos/spotify.mp4",
     },
     {
       id: 6,
-      name: "Todo Website",
+      name: "Todo WebApp",
       video: "/videos/todo.mp4",
+    },
+    {
+      id: 7,
+      name: "Myntra Clone",
+      video: "/videos/Myntra.mp4",
+    },
+    {
+      id: 8,
+      name: "CometChat",
+      video: "/videos/cometchat.mp4",
+    },
+    {
+      id: 9,
+      name: "Foody Kitchen",
+      video: "/videos/foody_zone.mp4",
+    },
+    {
+      id: 10,
+      name: "Shoe Store",
+      video: "/videos/shoe_brand.mp4",
     },
   ],
 };

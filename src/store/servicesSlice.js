@@ -15,7 +15,7 @@ const initialState = {
       image: "/web.jpeg",
     },
     {
-      id: 2,
+      id: 3,
       name: "React Developer",
       para: "Js framework ensuring applications are visually appealing,functional and easy to maintain.",
       image: "/react.jpg",
