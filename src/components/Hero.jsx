@@ -52,7 +52,7 @@ export default function Hero() {
           <FaTelegram size={20} />
         </a>
       </div>
-      <Link to='/contact'></Link> <button className="mt-6 px-6 py-2 bg-pink-600 hover:bg-white hover:text-pink-600 rounded-full transition hover:shadow-[0_0_10px_6px_rgba(236,72,153,0.8)] font-bold">
+      <Link to='/contact'><button className="mt-6 px-6 py-2 bg-pink-600 hover:bg-white hover:text-pink-600 rounded-full transition hover:shadow-[0_0_10px_6px_rgba(236,72,153,0.8)] font-bold">
         Hire Me
       </button>
       </Link>
