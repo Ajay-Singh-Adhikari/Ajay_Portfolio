@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="pt-28 pb-14 px-4 flex flex-col items-center"
+      className="pt-28 pb-20 px-4 flex flex-col items-center"
     >
       <h2 className="text-4xl md:text-5xl font-extrabold mb-6 text-center">
         <span className="text-pink-600">About Me</span>
