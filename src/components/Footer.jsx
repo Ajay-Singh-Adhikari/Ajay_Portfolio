@@ -12,13 +12,18 @@ export default function Footer() {
             <li>
               <Link
                 to="/certificates"
+                onClick={() => window.scrollTo(0, 0)}
                 className="hover:text-pink-600 transition underline"
               >
                 My Certificates
               </Link>
             </li>
             <li>
-              <Link to="/contact" className="hover:text-pink-600 transition underline">
+              <Link
+                to="/contact"
+                onClick={() => window.scrollTo(0, 0)}
+                className="hover:text-pink-600 transition underline"
+              >
                 Let’s Talk
               </Link>
             </li>
