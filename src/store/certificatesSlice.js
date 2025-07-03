@@ -2,6 +2,9 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   data: [
+    "data_analysis_Ajay.png",
+    "react_redux_Ajay.png",
+    "cybersecurity_Ajay.png",
     "cAjay.png",
     "cssAjay.png",
     "cssAjay2.png",
