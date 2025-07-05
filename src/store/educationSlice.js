@@ -5,7 +5,7 @@ const initialState = {
     {
       id: 1,
       heading: "B.Tech in Computer Science",
-      year: "2020-2024",
+      year: "2023-27",
       school: "am currently pursuing my",
       school_name: "Bipin Tripathi Kumaon Institute Of Technology",
       link: "https://www.kecua.ac.in/",
